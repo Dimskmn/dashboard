@@ -34,7 +34,7 @@ def create_byweather_df(df):
 
 
 # Load Berkas all_df
-all_df = pd.read_csv("dashboard/BikeShare/day_bikeshare_clean.csv")
+all_df = pd.read_csv("https://raw.githubusercontent.com/Dimskmn/dashboard/refs/heads/main/BikeShare/day_bikeshare_clean.csv")
 
 # Mengurutkan DataFrame berdasarkan order_date
 datetime_columns = ["date"]
