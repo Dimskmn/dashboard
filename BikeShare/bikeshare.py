@@ -55,7 +55,7 @@ with st.sidebar:
         "https://raw.githubusercontent.com/Dimskmn/dashboard/refs/heads/main/BikeShare.png", width=160)
 
 # Mengambil start_date & end_date dari date_input
-    start_date, end_date = st.date_input(
+    start_date, end_date = st.slider(
         label='Rentang Waktu', min_value=min_date,
         max_value=max_date,
         value=[min_date, max_date]
