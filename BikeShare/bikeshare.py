@@ -55,9 +55,11 @@ with st.sidebar:
         "https://raw.githubusercontent.com/Dimskmn/dashboard/refs/heads/main/BikeShare.png", width=160)
 
 # Mengambil start_date & end_date dari date_input
-    slide_date = st.slider(
-        label='Rentang Waktu', value=[min_date, max_date]
-    )
+    start_date, end_date = st.date_input(
+         label='Rentang Waktu', min_value=min_date,
+         max_value=max_date,
+         value=[min_date, max_date])
+    
 # Data yang difilter disimpan dalam main_df
 main_df = all_df[(all_df["date"] >= str(start_date)) &
                  (all_df["date"] <= str(end_date))]
