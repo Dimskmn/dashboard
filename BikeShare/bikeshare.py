@@ -52,7 +52,7 @@ max_date = all_df["date"].max()
 with st.sidebar:
     # Menambahkan logo perusahaan
     st.image(
-        "https://raw.githubusercontent.com/Dimskmn/dashboard/refs/heads/main/BikeShare.png", width=320)
+        "https://raw.githubusercontent.com/Dimskmn/dashboard/refs/heads/main/BikeShare.png", width=120)
 
 # Mengambil start_date & end_date dari date_input
     start_date, end_date = st.date_input(
