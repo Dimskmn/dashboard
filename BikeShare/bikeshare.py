@@ -42,7 +42,7 @@ def create_week_avg_df(df):
 
 
 # Load Berkas all_df
-all_df = pd.read_csv("dashboard/BikeShare/day_bikeshare_clean.csv")
+all_df = pd.read_csv("/BikeShare/day_bikeshare_clean.csv")
 
 # Mengurutkan DataFrame berdasarkan order_date
 datetime_columns = ["date"]
