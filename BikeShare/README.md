@@ -1,4 +1,4 @@
-# BikeShare Dashboard 🚲
+# BikeShare Dashboard 🚴‍♂️:
 
 ## Setup Environment - Anaconda
 ```
